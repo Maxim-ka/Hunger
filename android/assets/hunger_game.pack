@@ -1,0 +1,159 @@
+
+game_hunger1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+windowDialog
+  rotate: false
+  xy: 2, 2
+  size: 512, 256
+  orig: 512, 256
+  offset: 0, 0
+  index: -1
+joystick
+  rotate: false
+  xy: 2, 260
+  size: 200, 250
+  orig: 200, 250
+  offset: 0, 0
+  index: -1
+scanerMiniMap
+  rotate: false
+  xy: 204, 260
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+hero
+  rotate: false
+  xy: 516, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+bouaaaaah
+  rotate: false
+  xy: 646, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+beaten
+  rotate: false
+  xy: 776, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+treeInBox
+  rotate: false
+  xy: 406, 260
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+embossedTile
+  rotate: false
+  xy: 406, 342
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+buttonDialog
+  rotate: false
+  xy: 516, 132
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+thorn
+  rotate: false
+  xy: 406, 424
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+play
+  rotate: false
+  xy: 906, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+pizza
+  rotate: false
+  xy: 516, 198
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+pause
+  rotate: false
+  xy: 516, 264
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+life
+  rotate: false
+  xy: 516, 330
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+lemon
+  rotate: false
+  xy: 516, 396
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+exit
+  rotate: false
+  xy: 646, 132
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+doughnut
+  rotate: false
+  xy: 712, 132
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+corpse
+  rotate: false
+  xy: 778, 132
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+particleDetonation
+  rotate: false
+  xy: 204, 462
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+miniHero
+  rotate: false
+  xy: 204, 496
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+miniGoodFood
+  rotate: false
+  xy: 214, 496
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+miniEnemy
+  rotate: false
+  xy: 214, 503
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1

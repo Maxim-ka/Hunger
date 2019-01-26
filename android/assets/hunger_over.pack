@@ -1,0 +1,26 @@
+
+over_hunger1.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+overGame
+  rotate: false
+  xy: 2, 2
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
+menu
+  rotate: false
+  xy: 2, 724
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+exit
+  rotate: false
+  xy: 2, 854
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
