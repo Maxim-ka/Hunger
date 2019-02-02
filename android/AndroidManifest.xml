@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.reschikov.gdx.game.android">
+    package="com.reschikov.gdx.game.hunger">
 
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
@@ -12,7 +12,7 @@
         android:theme="@style/GdxTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name="com.reschikov.gdx.game.android.AndroidLauncher"
+            android:name="com.reschikov.gdx.game.hunger.AndroidLauncher"
             android:label="@string/app_name" 
             android:screenOrientation="landscape"
             android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|screenLayout">

@@ -1,7 +1,7 @@
 apply plugin: "java"
 sourceCompatibility = 1.8
 sourceSets.main.java.srcDirs = ["src/"]
-project.ext.mainClassName = "com.reschikov.gdx.game.android.desktop.DesktopLauncher"
+project.ext.mainClassName = "com.reschikov.gdx.game.hunger.desktop.DesktopLauncher"
 project.ext.assetsDir = new File("../android/assets")
 task run(dependsOn: classes, type: JavaExec) {
     main = project.mainClassName
@@ -21,7 +21,7 @@ task debug(dependsOn: classes, type: JavaExec) {
 task dist(type: Jar) {
     from files(sourceSets.main.output.classesDir)
     from files(sourceSets.main.output.resourcesDir)
-    from { configurations.compile.collect { zipTree(it) } }
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it)} }
     from files(project.assetsDir)
 
     manifest {
@@ -46,5 +46,6 @@ task afterEclipseImport(description: "Post processing after project generation",
     }
 }
 dependencies {
-    implementation project(':core')
+//    implementation project(':core')
+    compile project(':core')
 }
